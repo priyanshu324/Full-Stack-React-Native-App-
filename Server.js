@@ -26,9 +26,9 @@ app.use("/api/v1/post", require("./routes/postRoutes"));
 // home 
 app.get('/', (res,req)=>{
     return res.status(200).send({
-       "success":true,
-        "message": "Node Server Running",
-    });
+            "success": true,
+            "message": 'node server running',
+        })
 });
 
 //PORT
